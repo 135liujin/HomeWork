@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>申请表</title>
+  </head>
+  <body>
+    <form method="POST" action="">
+      <h2>申请表</h2>
+      <div>
+        <label for="name">姓名：</label>
+        <input type="text" style="width: 250px;" />
+      </div>
+      <p></p>
+      <div>
+        教育程度：
+        <input type="checkbox" name="" id="shuo" checked />
+        <label for="shuo">硕士</label>
+        <input type="checkbox" name="" id="bo" />
+        <label for="bo">博士</label>
+      </div>
+      <p></p>
+      <div>
+        <label for="em">常用邮箱：</label>
+        <input type="email" name="" id="em" />
+      </div>
+      <p></p>
+      <div>
+        性别：
+        <input type="radio" name="sex" id="man" checked />
+        <label for="man">男</label>
+        <input type="radio" name="sex" id="woman" />
+        <label for="woman">女</label>
+      </div>
+      <p></p>
+      <div>
+        <label for="age">年龄：</label>
+        <input type="text" />
+      </div>
+      <p></p>
+      <div>
+        <label for="money">月薪：</label>
+        <input type="text" style="width: 120px;" />
+      </div>
+      <p></p>
+      <div>
+        <label for="remark">附注：</label>
+        <textarea name="" id="remark" cols="30" rows="4">
+请在这里键入附注</textarea
+        >
+      </div>
+      <p></p>
+      <div>
+        国籍：
+        <select name="" id="">
+          <option value="中国">中国</option>
+          <option value="澳大利亚" selected>澳大利亚</option>
+          <option value="美国">美国</option>
+        </select>
+      </div>
+      <p></p>
+      <input type="submit" value="提 交" />
+      <input type="reset" value="重 置" />
+    </form>
+  </body>
+</html>

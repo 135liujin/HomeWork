@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>人人网注册页面完善版</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/images/renren_titile.gif" alt="" />
+      <p>
+        人人网，中国
+        最真实、最有效的社会平台，加入人人网，找回老朋友，结交新朋友。
+      </p>
+    </header>
+    <section>
+      <form method="POST" action="">
+        <div>
+          <label for="eml">电子邮箱:</label>
+          <input
+            type="email"
+            maxlength="50"
+            id="eml"
+            value="student@edu.cn"
+            readonly
+          />
+        </div>
+        <p></p>
+        <div>
+          <label for="pass">设置密码:</label>
+          <input type="password" maxlength="16" id="pass" />
+        </div>
+        <p></p>
+        <div>
+          <label for="rName">真实姓名:</label>
+          <input type="text" name="" id="rName" maxlength="8" />
+        </div>
+        <p></p>
+        <div>
+          性别:
+          <input type="radio" name="sex" id="man" checked />
+          <label for="man">男</label>
+          <input type="radio" name="sex" id="woman" />
+          <label for="woman">女</label>
+        </div>
+        <p></p>
+        <div>
+          生日:
+          <select name="years" id="year">
+            <option value="1990">1990</option>
+            <option value="1991" selected>1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+          </select>
+          <label for="year">年</label>
+          <select name="months" id="month">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11" selected>11</option>
+            <option value="12">12</option>
+          </select>
+          <label for="month">月</label>
+          <select name="days" id="day">
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30" selected>30</option>
+          </select>
+          <label for="day">日</label>
+        </div>
+        <p>为什么要填写我的生日?</p>
+        <label for="me">我现在:</label>
+        <select name="" id="me" disabled>
+          <option value="请选择身份">请选择身份</option>
+          <option value="">医生</option>
+          <option value="">老师</option>
+        </select>
+        （非常重要）
+        <p></p>
+
+        <div>
+          <img src="./assets/images/renren_code.gif" alt="" />
+          <a href="">看不清换一张？</a>
+        </div>
+        <p></p>
+        <div>
+          <label for="click">验证码：</label>
+          <input type="text" maxlength="5" id="click" />
+        </div>
+      </form>
+    </section>
+    <footer>
+      <p></p>
+      <input type="image" src="./assets/images/renren.gif" alt="提交" />
+    </footer>
+  </body>
+</html>

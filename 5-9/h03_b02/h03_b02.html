@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>电子产品调查问卷</title>
+  </head>
+  <body>
+    <h1>American Metric 电子产品调查表</h1>
+    <form method="POST" action="">
+      <div>
+        <label for="name">姓名：</label>
+        <input
+          type="text"
+          placeholder="输入必须是2-6位字符"
+          style="width:250px"
+        />
+      </div>
+      <p></p>
+      <div>
+        <label for="date">购买日期：</label>
+        <input type="text" name="" id="date" style="width:80px" />
+        年&nbsp;<select name="" id="">
+          <option value="1">1月</option>
+          <option value="2">2月</option>
+          <option value="3">3月</option>
+          <option value="4">4月</option>
+          <option value="5">5月</option>
+          <option value="6">6月</option>
+          <option value="7">7月</option>
+          <option value="8">8月</option>
+          <option value="9">9月</option>
+          <option value="10">10月</option>
+          <option value="11">11月</option>
+          <option value="12">12月</option> </select
+        >月&nbsp;<select name="" id="">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option> </select
+        >日
+      </div>
+      <p></p>
+      <div>
+        <label for="em">电子邮件地址：</label>
+        <input
+          type="text"
+          placeholder="www.baidu.com"
+          id="em"
+          style="width:250px"
+        />
+      </div>
+      <p></p>
+      <div>
+        <label for="phoneNum">手机号码</label>
+        <input
+          type="text"
+          id="phoneNum"
+          placeholder="必须输入是以13/15/18开头的11位数字"
+          style="width:350px"
+        />
+      </div>
+      <p></p>
+      <div>
+        您是否查看过我们的在线产品目录？
+        <input type="radio" name="isOk" id="yes" checked />
+        <label for="yes">是</label>
+        <input type="radio" name="isOk" id="no" />
+        <label for="no">否</label>
+      </div>
+      <p></p>
+      <div>如果查看过，您对哪些产品有兴趣购买？（选择提供的产品）</div>
+      <div>
+        <input type="checkbox" name="product" id="tv" />
+        <label for="tv">大屏幕电视机</label>
+        <input type="checkbox" name="product" id="yin" />
+        <label for="yin">音频设备</label>
+        <input type="checkbox" name="product" id="video" />
+        <label for="video">视频设备</label>
+        <input type="checkbox" name="product" id="camor" />
+        <label for="camor">相机</label>
+      </div>
+      <p></p>
+      <div>在填写订单之前，您还有什么问题、意见或者建议？</div>
+      <div>
+        <textarea name="" id="" cols="50" rows="3">
+您的输入：
+      </textarea
+        >
+      </div>
+      <p></p>
+      <input type="submit" value="提 交" />
+      <input type="reset" value="重 置" disabled />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>网易邮箱登录页面</title>
+    <style>
+      header {
+        width: 1200px;
+        border: 1px solid red;
+        margin: 0px auto;
+      }
+      .top_right {
+        float: right;
+        height: 65px;
+      }
+      .top_right > a {
+        text-decoration: none;
+        display: inline-block;
+        line-height: 60px;
+        color: #000;
+      }
+      section {
+        border: 1px solid red;
+        width: 1200px;
+        margin: 15px auto;
+      }
+      .content {
+        width: 1130px;
+        position: relative;
+        left: 35px;
+      }
+      .leftBox {
+        width: 350px;
+        height: 350px;
+      }
+
+      .loginBox {
+        width: 350px;
+        height: 295px;
+        border: 1px solid gray;
+        position: absolute;
+        right: 40px;
+        top: 30px;
+      }
+      footer {
+        border: 1px solid red;
+        width: 1200px;
+        margin: 0px auto;
+      }
+      .footer_r {
+        float: right;
+        line-height: 50px;
+      }
+      .footer_r > a {
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/images/163logo.gif" alt="" />
+      <div class="top_right">
+        <a href="">免费邮 </a>
+        <a href="">企业邮 </a>
+        <a href="">VIP邮箱 </a>
+        <a href="">帮助 </a>
+      </div>
+    </header>
+    <section>
+      <div class="content">
+        <div class="leftBox">
+          <img src="./assets/images/imap.jpg" alt="" />
+          <ul>
+            <li>163/126/yeah三大免费邮箱均默认开放</li>
+            <li>全面支持iPhone/iPad及Android等系统</li>
+            <li>
+              客户端、手机与网页，实现发送、阅读邮件立即同步普通登录手机号登录
+            </li>
+          </ul>
+        </div>
+
+        <div class="loginBox">
+          <form action="">
+            <div class="title">
+              <legend>
+                <img src="./assets/images/loginIcon.gif" alt="" /><strong
+                  >普通登录</strong
+                >
+              </legend>
+            </div>
+            <p></p>
+            <div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名&nbsp;<input
+                type="text"
+                style="width: 137px; height: 20px;"
+              />&nbsp;@163.com
+            </div>
+            <p></p>
+            <div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;码&nbsp;<input
+                type="password"
+                style="width: 137px;
+        height: 20px;"
+              />
+            </div>
+            <p></p>
+            <div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版&nbsp;&nbsp;&nbsp;本&nbsp;<select
+                name=""
+                id=""
+              >
+                <option value="">默认</option>
+                <option value="">极速</option>
+              </select>
+            </div>
+            <p></p>
+            <div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="checkbox" name="loginmod" id="login" />
+              <label for="login">自动登录</label>
+              <input type="checkbox" name="loginmod" id="ssl" />
+              <label for="ssl">SSL</label>
+            </div>
+            <p></p>
+            <div style=" text-align: center">
+              <input type="button" value="登录" />
+              <input type="button" value="注册" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <img src="./assets/images/netease_logo.gif" alt="" />
+      <div class="footer_r">
+        <a href="">关于网易</a>
+        <a href="">免费邮</a>
+        <a href="">官方博客</a>
+        <a href="">客户服务</a>
+        <a href="">隐私政策</a>
+        <span>|</span>
+        <a href="">网易公司版权所有</a>
+        <a href="">&copy; 1997-2011</a>
+      </div>
+    </footer>
+  </body>
+</html>
